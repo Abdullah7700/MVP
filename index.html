@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Band Baaja Baraat</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+  <!-- header section starts      -->
+
+  <header>
+
+    <a href="#" class="logo"><i class="fas fa-ring"></i>Band Baaja Baraat</a>
+
+  </header>
+
+  <!-- main body section starts -->
+
+  <section class="major">
+
+    <div class="mains">
+
+      <form action="insert.php" method="post">
+        <h3 class="fr">Full Name </h3>
+        <input class="answer" type="text" name="Name" value=""><br>
+        <h3 class="fr">Email Address </h3>
+        <input class="answer" type="email" name="Email" value=""><br>
+        <h3 class="fr">Contact Number </h3>
+        <input class="answer-fr" type="Nummber" name="Contact" value=""><br>
+        <label class="drop-down" for="Problems">Problem Category: </label>
+        <select name="Probtype" id="types">
+          <option value="Venue Search">Venue Search</option>
+          <option value="Florist Selection">Florist Selection</option>
+          <option value="Wedding Invites">Wedding Invites</option>
+          <option value="Photographer">Photographer</option>
+          <option value="Other">Other</option>
+        </select>
+        <h3 class="fr">Price Range </h3>
+        <input class="answer" type="text" name="Price" value=""><br>
+        <h3 class="fr">Please briefly tell us the exact problem so that we can find the best possible solution.</h3>
+        <textarea class="answer-box" name="Detail" rows="6" cols="180"></textarea>
+        <h3 class="fr">Feedback is the breakfast of champions! Let us know which problems related to putting together a wedding event you'd like us to focus on in our actual product.</h3>
+        <textarea class="answer-box" name="Feedback" rows="6" cols="180"></textarea>
+        <h3><input class="submission" type="submit" value="Submit"></h3>
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <!-- footer section starts  -->
+
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Locations</h3>
+        <a href="#">Lahore</a>
+        <a href="#">Islamabad</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact info</h3>
+        <a href="#">+92 334 4422046</a>
+        <a href="#">Lahore, Pakistan - 54000</a>
+      </div>
+
+      <div class="box">
+        <h3>Follow us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Linkedin</a>
+      </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2021 by <span>Band Baaja Baraat</span> </div>
+
+  </section>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- custom js file link  -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
